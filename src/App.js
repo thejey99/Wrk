@@ -1,3 +1,4 @@
+import './App.css';
 import React, { useState, useEffect, useMemo } from 'react';
 import { Sun, Moon, BookOpen, Dumbbell, PlusSquare, Settings as SettingsIcon, Trash2, Copy, BarChart2, Play } from 'lucide-react';
 

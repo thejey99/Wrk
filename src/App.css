@@ -93,6 +93,7 @@ body {
   left: 0;
   right: 0;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+  box-sizing: border-box;
 }
 
 .nav-item {
@@ -105,4 +106,10 @@ body {
   font-size: 0.75rem;
   gap: 4px;
   color: #555;
+  flex: 1;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-bottom: 80px; /* Add padding to prevent content from hiding behind the nav bar */
 }
